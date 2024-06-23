@@ -1,0 +1,36 @@
+.forms h2 {
+  margin-bottom: 20px;
+  color: var(--text);
+  font-family: "Arial", sans-serif;
+  font-weight: 500;
+}
+
+.error {
+  color: red;
+  margin-bottom: 20px;
+}
+
+.forms form {
+  display: flex;
+  flex-direction: column;
+}
+
+.forms input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--text);
+  background-color: var(--ns);
+  color: #fff;
+  outline: none;
+}
+
+.forms button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}

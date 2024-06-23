@@ -1,0 +1,46 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+  margin-top: 64px;
+}
+
+.page {
+  margin-left: 264px;
+  flex: 1;
+  padding: 20px;
+  height: calc(100vh - 64px);
+}
+
+.sidebar {
+  top: 64px;
+  left: 0;
+}
+
+@media (max-width: 1023px) {
+  .page {
+    margin-left: 95px;
+  }
+}
+
+@media (max-width: 640px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .page {
+    margin-left: 0;
+    margin-bottom: 64px;
+  }
+
+  .sidebar {
+    top: auto;
+    bottom: 0;
+    width: 100%;
+  }
+}

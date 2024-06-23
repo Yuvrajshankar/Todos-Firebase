@@ -1,0 +1,65 @@
+.createContainer {
+  background-color: var(--ns);
+  padding: 20px;
+  border: 1px solid var(--text);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  font-weight: 500;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.formGroup label {
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 13px;
+  color: white;
+}
+
+.formGroup input,
+.formGroup textarea {
+  background-color: var(--ns);
+  border: 1px solid var(--text);
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+  color: white;
+}
+
+.formGroup textarea {
+  resize: vertical;
+}
+
+.createButton {
+  padding: 10px 15px;
+  font-size: 1rem;
+  color: white;
+  background-color: var(--bgb);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.createButton:hover {
+  background-color: var(--pen);
+}

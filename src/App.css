@@ -1,0 +1,23 @@
+:root {
+  --bg: #161925;
+  --ns: #1c1f2e;
+  --text: #ffffff;
+  --bgb: #0e78f9;
+  --pen: #2286dd;
+  --com: #2e8b57;
+  --del: #fa8072;
+  --des: #777777;
+  --date: #808080;
+  --bb: rgba(66, 66, 68, 30%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--text);
+}
+
+body {
+  background-color: var(--bg);
+}

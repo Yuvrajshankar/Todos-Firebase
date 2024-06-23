@@ -1,0 +1,106 @@
+.todoBox {
+  background-color: var(--ns);
+  max-width: 300px;
+  min-height: 160px;
+  border-radius: 14px;
+  padding: 10px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top p {
+  background-color: var(--pen);
+  padding: 1px 3px 3px 3px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.top button {
+  background-color: var(--bb);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.middle {
+  padding-top: 10px;
+}
+
+.middle h3 {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.middle p {
+  padding-top: 5px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 4em;
+}
+
+.bottom {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.bottom span {
+  color: var(--date);
+  font-size: 13px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.buttons button {
+  background: var(--bb);
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.buttons button img {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 2142px) {
+  .todoBox {
+    max-width: 280px;
+  }
+
+  .middle p {
+    max-height: 5em;
+  }
+}
+
+@media (max-width: 1023px) {
+  .todoBox {
+    max-width: 280px;
+  }
+}
+
+@media (max-width: 768px) {
+  .todoBox {
+    max-width: 305px;
+  }
+}
+
+@media (max-width: 640px) {
+  .todoBox {
+    max-width: 100%;
+  }
+}

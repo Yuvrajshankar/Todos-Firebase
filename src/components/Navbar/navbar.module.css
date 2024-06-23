@@ -1,0 +1,49 @@
+nav {
+  background-color: var(--ns);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  padding: 15px 30px;
+}
+
+.left {
+  display: flex;
+  gap: 10px;
+}
+
+.left .add {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px 15px;
+  background-color: var(--bb);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.logout {
+  height: 30px;
+  transition: filter 0.3s ease;
+}
+
+button:hover .logout {
+  filter: hue-rotate(0deg) brightness(0) saturate(10000%) invert(13%) sepia(97%)
+    saturate(7481%) hue-rotate(358deg) brightness(90%) contrast(60%);
+}
+
+@media (max-width: 639px) {
+  .nav h1{
+    display: none;
+  }
+}

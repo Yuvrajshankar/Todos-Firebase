@@ -1,0 +1,80 @@
+.profileContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.profileInfo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.profileInfo label {
+  font-weight: bold;
+}
+
+.profileInfo p {
+  margin: 0;
+  word-break: break-word;
+}
+
+.profileActions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.editButton,
+.deleteButton {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.editButton {
+  background-color: #4caf50;
+}
+
+.deleteButton {
+  background-color: #f44336;
+}
+
+.editButton img,
+.deleteButton img {
+  margin-right: 8px;
+  width: 20px;
+  height: 20px;
+}
+
+hr {
+  margin-top: 20px;
+}
+
+.todoList {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.filterContainer {
+  margin-bottom: 20px;
+}
+
+.filterContainer select {
+  margin-top: 20px;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: var(--bb);
+  border: 1px solid #ccc;
+  font-size: 16px;
+}

@@ -1,0 +1,70 @@
+.formContainer {
+  background-color: var(--ns);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 350px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.tra {
+  margin-top: 20px;
+  color: #ccc;
+}
+
+.tra span {
+  color: #007bff;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.line::before,
+.line::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.line::before {
+  margin-right: 10px;
+}
+
+.line::after {
+  margin-left: 10px;
+}
+
+.orText {
+  color: #d4d4d4;
+}
+
+.googleButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+}
+
+.googleButton:hover {
+  background-color: #f1f1f1;
+}
+
+.googleIcon {
+  margin-right: 10px;
+}
