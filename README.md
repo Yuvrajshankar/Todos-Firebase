@@ -10,7 +10,7 @@ Full stack Task management web-app built with Reactjs (vite) + Firebase
 
 ## Screenshots
 
-<!-- #### Desktop view
+#### Desktop view
 
 <div style="display: flex; justify-content: space-around;">
   <img src="screenshots/desk_1.png" alt="pending page" style="width: 48%;">
@@ -22,7 +22,7 @@ Full stack Task management web-app built with Reactjs (vite) + Firebase
 <div style="display: flex; justify-content: space-around;">
   <img src="screenshots/mob_1.jpg" alt="pending page" style="width: 48%;">
   <img src="screenshots/mob_2.jpg" alt="profile page" style="width: 48%;">
-</div> -->
+</div>
 
 ## Tech stack
 
